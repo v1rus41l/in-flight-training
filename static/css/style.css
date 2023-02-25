@@ -1,0 +1,27 @@
+h1 {
+   color: #d22e3a;
+}
+.form {
+   text-align: center;
+   color: black
+}
+
+.black_h1 {
+    color: black
+}
+
+h4 {
+    color: gray;
+    padding: 20px
+}
+
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #ffcc00;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
