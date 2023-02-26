@@ -45,7 +45,7 @@ def login():
 
 @app.route('/training/<prof>', methods=['GET', 'POST'])
 def training(prof):
-    return render_template('index.html', prof=prof)
+    return render_template('training.html', prof=prof)
 
 @app.route('/list_prof/<list>', methods=['GET', 'POST'])
 def list_prof(list):
